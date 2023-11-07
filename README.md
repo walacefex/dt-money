@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creating a project for financial control using React with Typescript, styled components and radix-ui
 
-Currently, two official plugins are available:
+First, install the dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+```
+Second, run the application development:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Third, run the server
+```bash
+npm run dev:server
+```
+
+| :placard: About the project  |     |
+| -------------  | --- |
+| :sparkles: Nome        | **DT Money**
+| :label: Tecnologias | Vite, React, Typescript, Styled Components, Eslint, Radix-UI
+| :rocket: URL         | https://www.figma.com/file/vDhzWjOVdWXtqHCTGt7bR3/DT-Money-(Community)?type=design&node-id=42078-424&mode=design&t=jWLK65rg18mHnCXJ-0
+
+![Alt text](image.png)
+
