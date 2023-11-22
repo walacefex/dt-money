@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2022-07-29T19:24:44.505Z"
+    },
+    {
+      "description": "desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-11-22T18:12:14.908Z",
+      "id": 4
+    },
+    {
+      "description": "Sorvete",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-11-22T18:30:29.372Z",
+      "id": 5
     }
   ]
 }
